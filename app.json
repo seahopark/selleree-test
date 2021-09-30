@@ -5,7 +5,11 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "description": "셀러리 RN test",
+    "android": {
+      "package": "com.seho403.sellereetest"
+    }
   },
   "name": "selleree-test"
 }
