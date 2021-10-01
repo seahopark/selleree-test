@@ -1,11 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View,SafeAreaView } from 'react-native';
+import { StyleSheet, Text, View,SafeAreaView, } from 'react-native';
 import { WebView } from 'react-native-webview';
 
 export default function App() {
   return (
     <SafeAreaView style={{ flex:1 }}>
+      <StatusBar barStyle="dark-content" backgroundColor={'transparent'} translucent={false} />
       <WebView 
         style={styles.container}
         source={{ uri: 'https://selleree.shop' }}
