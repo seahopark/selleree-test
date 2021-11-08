@@ -2,9 +2,13 @@
   "devToolsPort": 19002,
   "expoServerPort": 19000,
   "packagerPort": 19000,
+<<<<<<< HEAD
   "webpackServerPort": null,
   "packagerPid": null,
   "expoServerNgrokUrl": null,
   "packagerNgrokUrl": null,
   "ngrokPid": null
+=======
+  "webpackServerPort": 19006
+>>>>>>> parent of fd755937 (for expo update)
 }
